@@ -16,10 +16,10 @@ public class Funcionario {
 	private final String nome;
 	private final String cpf;
 	private final Cargo cargo;
-	
-	@NonNull 
+
+	@NonNull
 	private BigDecimal salario;
-	
+
 	private LocalDate dataUltimoReajuste;
 
 	public void atualizarSalario(BigDecimal novoSalario) {
